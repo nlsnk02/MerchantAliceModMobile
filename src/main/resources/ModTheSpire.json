@@ -1,0 +1,18 @@
+{
+  "modId": "MerchantAlice",
+  "modName": "商者：伊莉丝(手机版)",
+  "modVersion": "0.0.1",
+  "authorList": [
+    "FF"
+  ],
+  "descriptions": {
+    "zhs": [
+      "..."
+    ],
+    "eng": [
+      "..."
+    ]
+  },
+  "dependencies": [
+  ]
+}

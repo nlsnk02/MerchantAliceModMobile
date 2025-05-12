@@ -1,0 +1,421 @@
+{
+  "MerchantAlice:StartStrike": {
+    "NAME": "打击",
+    "DESCRIPTION": "造成与手牌数相同的伤害。",
+    "UPGRADE_DESCRIPTION": "造成手牌数+ !M! 点伤害。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （ !D! 点伤害）"
+    ]
+  },
+  "MerchantAlice:StartDefend": {
+    "NAME": "防御",
+    "DESCRIPTION": "获得与手牌数相同的 格挡 。",
+    "UPGRADE_DESCRIPTION": "获得手牌数+ !M! 点 格挡 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （!B! 点 格挡 ）"
+    ]
+  },
+  "MerchantAlice:MerchantsInstinct": {
+    "NAME": "商人本能",
+    "DESCRIPTION": "抽到时抽一张牌。 NL 造成 !D! 点伤害，若击杀，获得 !M! 金币。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwwwww"
+  },
+  "MerchantAlice:RenewAndReplace": {
+    "NAME": "弃旧换新",
+    "DESCRIPTION": "选择一张弃牌堆里的牌，将两张复制加入手牌，并令其具有 消耗 。 NL 消耗 。不可升级。",
+    "UPGRADE_DESCRIPTION": "wwwwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "将两张牌的复制加入手牌。并令其拥有消耗。"
+    ]
+  },
+  "MerchantAlice:Raid": {
+    "NAME": "突袭",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果这张牌从你的手牌中被丢弃，对所有敌人造成 !M! 点伤害。",
+    "UPGRADE_DESCRIPTION": "wwwwwwww"
+  },
+  "MerchantAlice:Solemn": {
+    "NAME": "严肃",
+    "DESCRIPTION": "获得 !M! 点 力量 。 NL 如果这张牌从你的手牌中被丢弃，获得2层 merchantalice:欲望 并抽一张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwwwww"
+  },
+  "MerchantAlice:BadManners": {
+    "NAME": "失礼",
+    "DESCRIPTION": "获得3层 merchantalice:欲望 。 NL 如果这张牌从你的手牌中被丢弃，获得 !M! 点 力量  并抽一张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwwwww"
+  },
+  "MerchantAlice:Overambitious": {
+    "NAME": "好高骛远",
+    "DESCRIPTION": "丢弃一张牌。 NL 抽两张耗能比这张牌高的牌。",
+    "UPGRADE_DESCRIPTION": "wwwwwwww"
+  },
+  "MerchantAlice:WinThroughCleverness": {
+    "NAME": "以智取胜",
+    "DESCRIPTION": "你的回合结束后，抽 !M! 张牌并弃掉。",
+    "UPGRADE_DESCRIPTION": "wwwwwwww"
+  },
+  "MerchantAlice:CorneredBeast": {
+    "NAME": "困兽",
+    "DESCRIPTION": "造成 !D! 点伤害，获得 !B! 点 格挡 。 NL 如果这张牌从你的手牌中被丢弃，获得 !M! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": "wwwwwwww"
+  },
+  "MerchantAlice:BurnOnesBoats": {
+    "NAME": "破釜沉舟",
+    "DESCRIPTION": "丢弃手牌中所有非攻击牌。 NL 每丢弃一张牌，在你的手牌中增加一张 *追击 。",
+    "UPGRADE_DESCRIPTION": "丢弃手牌中所有非攻击牌。 NL 每丢弃一张牌，在你的手牌中增加一张 *追击+ 。"
+  },
+  "MerchantAlice:Pursue": {
+    "NAME": "追击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:Azure": {
+    "NAME": "蔚蓝",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 如果这张牌从你的手牌中被丢弃，获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。 NL 如果这张牌从你的手牌中被丢弃，获得 [E] [E] 。"
+  },
+  "MerchantAlice:SwiftShadow": {
+    "NAME": "绝影",
+    "DESCRIPTION": "保留 。 不能被打出 。 NL 如果其他牌从你的手牌中被丢弃，获得 !B! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:LiveFromHandToMouth": {
+    "NAME": "朝不保夕",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 丢弃一张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:SeverelyPunish": {
+    "NAME": "严惩",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL 每有一张手牌，伤害和 格挡 增加1。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:Unstoppable": {
+    "NAME": "势不可挡",
+    "DESCRIPTION": "丢弃1张牌，获得等同其耗能的 力量 ， 敏捷 ， merchantalice:欲望 。",
+    "UPGRADE_DESCRIPTION": "丢弃2张牌，获得等同其耗能之和的 力量 ， 敏捷 ， merchantalice:欲望 。"
+  },
+  "MerchantAlice:Weigh": {
+    "NAME": "权衡",
+    "DESCRIPTION": "抽 !M! 张牌。 NL 丢弃 !M 张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:Abandon": {
+    "NAME": "抛弃",
+    "DESCRIPTION": "丢弃一张牌，造成 !D! 点伤害。丢弃的牌每 保留 过一回合，伤害增加 !D! 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:Annihilate": {
+    "NAME": "歼灭",
+    "DESCRIPTION": "保留 。 不能被打出 。 NL 如果其他牌从你的手牌中被丢弃，随机对一名敌人造成 !M! 点伤害。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:EmbarrassingMemory": {
+    "NAME": "尴尬回忆",
+    "DESCRIPTION": "获得 !B! 层 格挡 。 NL 获得2层 虚弱 。 NL 如果这张牌从你的手牌中被丢弃，获得 !M! 点 力量 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:DesireSurged": {
+    "NAME": "欲望涌现",
+    "DESCRIPTION": "发情 状态下，每丢弃一张牌，获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:ReviewAndLearn": {
+    "NAME": "温故知新",
+    "DESCRIPTION": "每丢弃一张牌，获得 !M! 层 merchantalice:欲望 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:OneServesTwo": {
+    "NAME": "一法二用",
+    "DESCRIPTION": "每丢弃一张牌，抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:HiddenCard": {
+    "NAME": "花色底牌",
+    "DESCRIPTION": "失去 !M! 点最大生命。 NL 消灭一个非boss敌人。 NL 丢弃并 消耗 所有手牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww",
+    "EXTENDED_DESCRIPTION": [
+      "选择的是boss！"
+    ]
+  },
+  "MerchantAlice:CardExperiment": {
+    "NAME": "卡牌实验",
+    "DESCRIPTION": "不能被打出 。 NL 如果其他牌从你的手牌中被丢弃，那些牌在打出前耗能变为0。",
+    "UPGRADE_DESCRIPTION": "保留 。 不能被打出 。 NL 如果其他牌从你的手牌中被丢弃，那些牌在打出前耗能变为0。"
+  },
+  "MerchantAlice:Resourcefully": {
+    "NAME": "足智多谋",
+    "DESCRIPTION": "当你触发被丢弃的牌的弃牌效果时，其效果额外触发 !M! 次。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:EverChanging": {
+    "NAME": "千变万化",
+    "DESCRIPTION": "抽 !M! 张牌，丢弃抽到的牌中的 *能力 牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:CardShaping": {
+    "NAME": "卡牌塑造",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 抽 !M! 张牌，那些牌获得 保留 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:DesireManifestation": {
+    "NAME": "欲望实体化",
+    "DESCRIPTION": "手牌每有一张其他的具有 保留 的牌，此牌耗能-1。 NL 造成 !D! 点伤害3次。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 手牌每有一张其他的具有 保留 的牌，此牌耗能-1。 NL 造成 !D! 点伤害3次。"
+  },
+  "MerchantAlice:CardDeckBuilding": {
+    "NAME": "卡牌构筑",
+    "DESCRIPTION": "洗牌。 NL 抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:ChasingShadows": {
+    "NAME": "捕风捉影",
+    "DESCRIPTION": "抽 !M! 张牌。 NL 虚无 。 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:PiercingThroughClouds": {
+    "NAME": "穿云破雾",
+    "DESCRIPTION": "除了回合开始的抽牌外，本回合每抽过一张牌，随机对一名敌人造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": " NL （ !M! 次）"
+  },
+  "MerchantAlice:CardResearch": {
+    "NAME": "卡牌研究",
+    "DESCRIPTION": "每抽一张牌，获得 !M! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 每抽一张牌，获得 !M! 点 格挡 。"
+  },
+  "MerchantAlice:MockBattle": {
+    "NAME": "假战",
+    "DESCRIPTION": "抽5张牌。 NL 选择 !M! 张手牌获得 保留 。",
+    "UPGRADE_DESCRIPTION": "获得保留"
+  },
+  "MerchantAlice:WaitForLuck": {
+    "NAME": "守株待兔",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 获得 !B! 点 格挡 。 NL 抽 !M! 张牌。"
+  },
+  "MerchantAlice:Sketch": {
+    "NAME": "速写",
+    "DESCRIPTION": "造成与敌人意图相同的伤害。 NL 在手牌加入一张 *速写 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "造成与敌人意图相同的伤害。 NL 在手牌加入一张 *速写 。 NL 消耗 。 保留 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （ !D! 点）"
+    ]
+  },
+  "MerchantAlice:DirectHit": {
+    "NAME": "直接命中",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 从弃牌堆抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:Responsibility": {
+    "NAME": "责无旁贷",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 从弃牌堆抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:DesireImpact": {
+    "NAME": "欲望冲击",
+    "DESCRIPTION": "抽与 merchantalice:欲望 层数相同张牌。",
+    "UPGRADE_DESCRIPTION": "抽与 merchantalice:欲望 层数相同张牌。 NL 获得 !M! 层 merchantalice:欲望 。"
+  },
+  "MerchantAlice:DoubleStrength": {
+    "NAME": "双倍力量",
+    "DESCRIPTION": "抽与手牌数相同张牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:TheFinalBlow": {
+    "NAME": "最后一击",
+    "DESCRIPTION": "抽取弃牌堆所有牌，其获得 虚无 ， 消耗 ，且本场战斗耗能变为0。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:AromaticBrew": {
+    "NAME": "芳香之酿",
+    "DESCRIPTION": "获得5 层 merchantalice:欲望 。 NL 抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:CardCombo": {
+    "NAME": "卡牌连击",
+    "DESCRIPTION": "抽一张牌。 NL 对所有敌人造成与你的手牌数相同的伤害。",
+    "UPGRADE_DESCRIPTION": "抽一张牌。 NL 对所有敌人造成你的手牌数+ !M! 点伤害。"
+  },
+  "MerchantAlice:CardRealm": {
+    "NAME": "卡牌领域",
+    "DESCRIPTION": "回合开始时，抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 回合开始时，抽 !M! 张牌。"
+  },
+  "MerchantAlice:TheOtherShore": {
+    "NAME": "彼岸",
+    "DESCRIPTION": "除了回合开始的抽牌外，每抽到一张牌，对所有敌人造成 !M! 点伤害。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:ShowingWeakness": {
+    "NAME": "示弱",
+    "DESCRIPTION": "下次受到伤害时，抽三张牌，那些牌耗能减2，获得 保留 ，并 消耗 其中的 诅咒 。",
+    "UPGRADE_DESCRIPTION": "下 !M! 次受到伤害时，抽三张牌，那些牌耗能减2，获得 保留 ，并 消耗 其中的 诅咒 。"
+  },
+  "MerchantAlice:OneByOne": {
+    "NAME": "逐个击破",
+    "DESCRIPTION": "对生命最低的敌人造成 !D! 点伤害，并给予 !M! 层 易伤 与 虚弱 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:Exploit": {
+    "NAME": "乘虚而入",
+    "DESCRIPTION": "保留 。 NL 每次敌人进行非攻击意图，这张牌的耗能在本场战斗中-1。 NL 造成 !D! 点伤害。 NL 给予 !M! 层 虚弱 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:RecoverMaterials": {
+    "NAME": "回收素材",
+    "DESCRIPTION": "抽到 保留 牌时，抽一张牌。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 抽到 保留 牌时，抽一张牌。"
+  },
+  "MerchantAlice:WitnessTheEnemy": {
+    "NAME": "目击敌人",
+    "DESCRIPTION": "如果敌人的意图不是攻击，造成 !D! 点伤害。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 如果敌人的意图不是攻击，造成 !D! 点伤害。"
+  },
+  "MerchantAlice:SuperficialGlance": {
+    "NAME": "走马观花",
+    "DESCRIPTION": "观看 *抽牌堆 时，卡牌将按顺序排列。",
+    "UPGRADE_DESCRIPTION": "打出时，选择抽牌堆的一张牌置于抽牌堆底端。 NL 观看 *抽牌堆 时，卡牌将按顺序排列。",
+    "EXTENDED_DESCRIPTION": [
+      "将一张牌置于抽牌堆顶部"
+    ]
+  },
+  "MerchantAlice:TheStormIsBrewing": {
+    "NAME": "风雨欲来",
+    "DESCRIPTION": "获得与敌人意图相同的 格挡 。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 获得与敌人意图相同的 格挡 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （ !B! 点）"
+    ]
+  },
+  "MerchantAlice:ShufflingDemonstration": {
+    "NAME": "洗牌示范",
+    "DESCRIPTION": "每次洗牌时，抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:Regroup": {
+    "NAME": "重振旗鼓",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 将一张复制洗入抽牌堆。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:GlareWithFury": {
+    "NAME": "怒目",
+    "DESCRIPTION": "获得 !M! 点 力量 。 NL 下回合开始时，获得 !M! 点 力量 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:HalftimeAdjustment": {
+    "NAME": "中场调整",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 回复 !M! 点生命。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:AGamble": {
+    "NAME": "赌彩一掷",
+    "DESCRIPTION": "你手牌中的所有牌耗能变为0点，并获得 虚无 与 消耗 。本回合你每次出牌，均将失去 !M! 生命和 !M! 金币。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 你手牌中的所有牌耗能变为0点，并获得 虚无 与 消耗 。本回合你每次出牌，均将失去 !M! 生命和 !M! 金币。"
+  },
+  "MerchantAlice:HighStakesGamble": {
+    "NAME": "豪赌",
+    "DESCRIPTION": "抽X张牌并将其丢弃。造成 !D! ×抽到的牌费用总和点伤害。",
+    "UPGRADE_DESCRIPTION": "抽X+1张牌并将其丢弃。造成 !D! ×抽到的牌费用总和点伤害。"
+  },
+  "MerchantAlice:SelfCultivation": {
+    "NAME": "修养",
+    "DESCRIPTION": "获得 !M! 点最大生命。 NL 虚无 。 消耗 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:TreasureSmuggling": {
+    "NAME": "珍宝走私",
+    "DESCRIPTION": "虚无 。 NL 回合结束时，获得 !M! 点 *金币 ，并且你失去5生命。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:BurstingWithJoy": {
+    "NAME": "心花怒放",
+    "DESCRIPTION": "获得与当前 merchantalice:欲望 层数相同的 格挡 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 merchantalice:欲望 。 NL 获得与当前 merchantalice:欲望 层数相同的 格挡 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL （ !B! 点）"
+    ]
+  },
+  "MerchantAlice:FlushedWithEmbarrassment": {
+    "NAME": "面红耳赤",
+    "DESCRIPTION": "获得与当前 格挡 数量相同的 merchantalice:欲望 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:AFleetingRomance": {
+    "NAME": "春风一度",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 层 merchantalice:欲望 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:AccelerationOfDesire": {
+    "NAME": "欲望加速",
+    "DESCRIPTION": "固有 。 NL 回合开始时，获得 !M! 层 merchantalice:欲望 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:ClenchTheTeeth": {
+    "NAME": "咬紧牙关",
+    "DESCRIPTION": "直到下回合开始前，每受到一次攻击，获得 !M! 层 merchantalice:欲望 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:ForcedClim": {
+    "NAME": "强制高潮",
+    "DESCRIPTION": "虚无 。 NL 若 merchantalice:欲望 层数低于10，将 merchantalice:欲望 层数提升至10。",
+    "UPGRADE_DESCRIPTION": "若 merchantalice:欲望 层数低于10，将 merchantalice:欲望 层数提升至10。"
+  },
+  "MerchantAlice:RelaxedAndJoyful": {
+    "NAME": "心旷神怡",
+    "DESCRIPTION": "发情状态下，每回合第一次打出的攻击牌不消耗 merchantalice:欲望 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:RelaxedAndJoyful2": {
+    "NAME": "心旷神怡",
+    "DESCRIPTION": "当你的手牌数至少为 !M! 时，获得2层 力量 和 敏捷 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:PerfectHarmony": {
+    "NAME": "水乳交融",
+    "DESCRIPTION": "获得与敌人意图伤害一半的 merchantalice:欲望 。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 获得与敌人意图伤害一半的 merchantalice:欲望 。"
+  },
+  "MerchantAlice:ClearClouds": {
+    "NAME": "拨云撩雨",
+    "DESCRIPTION": "保留 。 不能被打出 。 NL 如果其他牌从你的手牌中被丢弃，获得 !M! 层 merchantalice:欲望 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:JoyOfUnion": {
+    "NAME": "鱼水之欢",
+    "DESCRIPTION": "造成当前 merchantalice:欲望 !M! 倍的伤害。",
+    "UPGRADE_DESCRIPTION": " NL （ !D! 点）"
+  },
+  "MerchantAlice:JoyOfUnion2": {
+    "NAME": "鱼水之欢",
+    "DESCRIPTION": "每次从卡牌获得 merchantalice:欲望 时，对所有敌人造成获得层数的伤害。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 每次从卡牌获得 merchantalice:欲望 时，对所有敌人造成获得层数的伤害。"
+  },
+  "MerchantAlice:BlissfulParadise": {
+    "NAME": "极乐世界",
+    "DESCRIPTION": "每次进入或离开 *发情 时，抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:DesireRising": {
+    "NAME": "欲望升腾",
+    "DESCRIPTION": "保留 。 消耗 。 NL 获得 !B! 点 格挡 。 NL 获得 !M! 层 merchantalice:欲望 。 NL 在手牌加入一张具有 虚无 的 *欲望升腾 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:Tentacle": {
+    "NAME": "触手召唤",
+    "DESCRIPTION": "不可移除，无法逃脱，不可升级。 NL 进入触手姿态：你的下三回合开始时，获得3层 merchantalice:欲望 和7点 格挡 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:SelfComfort": {
+    "NAME": "自慰姿态",
+    "DESCRIPTION": "不可移除，无法逃脱，不可升级。 NL 进入自慰姿态：你的下四回合开始时，获得4层 merchantalice:欲望 。",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:ChooseDrawcard": {
+    "NAME": "抽牌",
+    "DESCRIPTION": "抽一张牌",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  },
+  "MerchantAlice:ChooseDiscard": {
+    "NAME": "弃牌",
+    "DESCRIPTION": "弃一张牌",
+    "UPGRADE_DESCRIPTION": "wwwwww"
+  }
+}

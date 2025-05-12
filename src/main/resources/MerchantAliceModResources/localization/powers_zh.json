@@ -1,0 +1,150 @@
+{
+  "MerchantAlice:WinThroughClevernessPower": {
+    "NAME": "以智取胜",
+    "DESCRIPTIONS": [
+      "你的回合结束后，抽 #b",
+      " 张牌并将其丢弃。"
+    ]
+  },
+  "MerchantAlice:DesireSurgedPower": {
+    "NAME": "尴尬回忆",
+    "DESCRIPTIONS": [
+      "#p发情 状态下，每丢弃一张牌，获得",
+      "点 [E] 。"
+    ]
+  },
+  "MerchantAlice:ReviewAndLearnPower": {
+    "NAME": "温故知新",
+    "DESCRIPTIONS": [
+      "每丢弃一张牌，获得 #b",
+      " 层 #y欲望 。"
+    ]
+  },
+  "MerchantAlice:OneServesTwoPower": {
+    "NAME": "一法二用",
+    "DESCRIPTIONS": [
+      "每丢弃一张牌，抽 #b",
+      " 张牌。"
+    ]
+  },
+  "MerchantAlice:CardResearchPower": {
+    "NAME": "卡牌研究",
+    "DESCRIPTIONS": [
+      "每抽一张牌，获得 #b",
+      " 点 #y格挡 。"
+    ]
+  },
+  "MerchantAlice:SelfComfortStance": {
+    "NAME": "自慰",
+    "DESCRIPTIONS": [
+      "下 #b",
+      " 回合开始时，获得 #b4 层 #y欲望 。"
+    ]
+  },
+  "MerchantAlice:TentacleStance": {
+    "NAME": "触手",
+    "DESCRIPTIONS": [
+      "下 #b",
+      " 回合开始时，获得 #b2 层 #y欲望 与 #b6 点 #y格挡 。"
+    ]
+  },
+  "MerchantAlice:ResourcefullyPower": {
+    "NAME": "足智多谋",
+    "DESCRIPTIONS": [
+      "当你弃牌而触发弃牌的特殊效果时，其效果额外触发 #b",
+      " 次。"
+    ]
+  },
+  "MerchantAlice:CardRealmPower": {
+    "NAME": "卡牌领域",
+    "DESCRIPTIONS": [
+      "回合开始时，抽 #b3 张牌。回合结束时，随机 #y消耗 最多 #b2 张手牌。"
+    ]
+  },
+  "MerchantAlice:TheOtherShorePower": {
+    "NAME": "彼岸",
+    "DESCRIPTIONS": [
+      "除了回合开始的抽牌外，每抽到一张牌，对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "MerchantAlice:ShowingWeaknessPower": {
+    "NAME": "示弱",
+    "DESCRIPTIONS": [
+      "下 #b",
+      " 次受到伤害时，抽三张牌，那些牌耗能减 #b2 ，获得 #y保留 ，并 #y消耗 其中的 #r诅咒 。"
+    ]
+  },
+  "MerchantAlice:ShufflingDemonstrationPower": {
+    "NAME": "洗牌示范",
+    "DESCRIPTIONS": [
+      "每次洗牌时，抽 #b",
+      " 张牌。"
+    ]
+  },
+  "MerchantAlice:SuperficialGlancePower": {
+    "NAME": "走马观花",
+    "DESCRIPTIONS": [
+      "观看 #y抽牌堆 时，卡牌将按顺序排列。"
+    ]
+  },
+  "MerchantAlice:GlareWithFuryPower": {
+    "NAME": "怒目",
+    "DESCRIPTIONS": [
+      "下回合开始时，获得 #b",
+      " 点 #y力量 。"
+    ]
+  },
+  "MerchantAlice:TreasureSmugglingPower": {
+    "NAME": "珍宝走私",
+    "DESCRIPTIONS": [
+      "回合结束时，获得 #b",
+      " 点 #y金币 ，并失去 #b",
+      " 点伤害。"
+    ]
+  },
+  "MerchantAlice:TreasureSmugglingUpgradePower": {
+    "NAME": "珍宝走私+",
+    "DESCRIPTIONS": [
+      "回合结束时，获得 #b",
+      " 点 #y金币 ，并失去 #b",
+      " 点伤害。"
+    ]
+  },
+  "MerchantAlice:AccelerationOfDesirePower": {
+    "NAME": "欲望加速",
+    "DESCRIPTIONS": [
+      "回合开始时，获得 #b",
+      " 层 #y欲望 。"
+    ]
+  },
+  "MerchantAlice:ClenchTheTeethPower": {
+    "NAME": "咬紧牙关",
+    "DESCRIPTIONS": [
+      "直到下回合开始前，每受到一次攻击，获得 #b",
+      " 层 #y欲望 。"
+    ]
+  },
+  "MerchantAlice:RelaxedAndJoyfulPower": {
+    "NAME": "心旷神怡",
+    "DESCRIPTIONS": [
+      "每回合前 #b",
+      " 次在 #p发情 状态下打出 #y攻击牌 不消耗 #y欲望 。"
+    ]
+  },
+  "MerchantAlice:BlissfulParadisePower": {
+    "NAME": "极乐世界",
+    "DESCRIPTIONS": [
+      "每次进入或离开 #p发情 时，抽 #b",
+      " 张牌。"
+    ]
+  },
+  "MerchantAlice:AGamblePower": {
+    "NAME": "负面",
+    "DESCRIPTIONS": [
+      "本回合你每次出牌，均将失去 #b",
+      " 生命和 #b",
+      " #y金币。"
+    ]
+  }
+}

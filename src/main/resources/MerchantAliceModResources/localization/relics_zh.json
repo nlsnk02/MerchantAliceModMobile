@@ -1,0 +1,59 @@
+{
+  "MerchantAlice:FlowerCard": {
+    "NAME": "花牌",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      "减少 #b2 基础抽牌数。在战斗中，每经过一回合，在你的回合开始时多抽 #b1 张牌，直到增加至在你的回合开始时多抽 #b6 张牌。每当战斗结束后，重置该计数。"
+    ]
+  },
+  "MerchantAlice:FlowerCard2": {
+    "NAME": "花牌",
+    "FLAVOR": "技巧，注意技巧",
+    "DESCRIPTIONS": [
+      "每场战斗前三回合开始时，选择抽一张牌或者弃一张牌。"
+    ]
+  },
+  "MerchantAlice:ArtCollection": {
+    "NAME": "美术集",
+    "FLAVOR": "你是这个世界上，最伟大的艺术家！",
+    "DESCRIPTIONS": [
+      "打出卡牌时，若你有至少 #b5 张手牌，获得 #b1 点 #y格挡 。"
+    ]
+  },
+  "MerchantAlice:ArtAssets": {
+    "NAME": "美术素材",
+    "FLAVOR": "艺术就要在我的手上诞生了！",
+    "DESCRIPTIONS": [
+      "拾起时，选择牌组中的一张牌 #y升级 。"
+    ]
+  },
+  "MerchantAlice:EvilPencil": {
+    "NAME": "邪恶铅笔",
+    "FLAVOR": "魔法铅笔，你的力量对于我们而言太强大了.",
+    "DESCRIPTIONS": [
+      "每打出 #b5 张攻击牌，在手牌加入一张 #y虚无 的 #y速写 。"
+    ]
+  },
+  "MerchantAlice:TinyToy": {
+    "NAME": "“小玩具”",
+    "FLAVOR": "你可以和我接球玩儿吗？",
+    "DESCRIPTIONS": [
+      "回合开始时，如果你处于 #p发情 状态，抽一张牌。"
+    ]
+  },
+  "MerchantAlice:PrivatePhotos": {
+    "NAME": "私人照片",
+    "FLAVOR": "圣诞快乐！",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b6 层 #y欲望 。"
+    ]
+  },
+  "MerchantAlice:BrandNewMarkerPen": {
+    "NAME": "崭新马克笔",
+    "FLAVOR": "无与伦比！",
+    "DESCRIPTIONS": [
+      "拾起时，选择牌组中的一张牌 #y变化 。",
+      "将一张牌变化"
+    ]
+  }
+}
