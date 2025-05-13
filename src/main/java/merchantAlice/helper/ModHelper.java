@@ -1,13 +1,19 @@
 package merchantAlice.helper;
 
+import com.badlogic.gdx.files.FileHandle;
+import com.megacrit.cardcrawl.android.mods.Loader;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.zip.ZipEntry;
 
 public class ModHelper {
     public static final Logger logger = LogManager.getLogger(ModHelper.class.getName());
@@ -72,6 +78,17 @@ public class ModHelper {
         return result;
     }
 
+    public static boolean isFileExist(String modId, String internalPath) {
+        int i;
+        for (i = 0; i < Loader.MODINFOS.length && !Loader.MODINFOS[i].modId.equals(modId); ++i) {
+        }
+        if (i >= Loader.MODINFOS.length) {
+            return false;
+        } else {
+            ZipEntry entry = Loader.MOD_JARS[i].getEntry(internalPath);
+            return entry != null;
+        }
+    }
 
     public static void deckMoveToHand(AbstractCard c) {
         if (!AbstractDungeon.player.drawPile.contains(c)) return;

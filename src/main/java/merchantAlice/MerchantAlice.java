@@ -17,6 +17,7 @@ import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import merchantAlice.actions.GainDesireAction;
 import merchantAlice.cards.*;
 import merchantAlice.characters.Char;
+import merchantAlice.helper.ImageHelper;
 import merchantAlice.misc.DesireUI;
 import merchantAlice.modCore.Enums;
 import merchantAlice.relics.*;
@@ -209,6 +210,7 @@ public class MerchantAlice implements
     public void receivePostInitialize() {
         logger.info("===============加载事件与其他东西===============");
         BaseMod.getColorBundleMap().get(MerchantAliceColor).loadRegion();
+//        ImageHelper.init();
         logger.info("===============加载事件与其他东西===============");
     }
 

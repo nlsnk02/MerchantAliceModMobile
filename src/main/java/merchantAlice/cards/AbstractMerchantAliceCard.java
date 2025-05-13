@@ -9,6 +9,8 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import merchantAlice.MerchantAlice;
+import merchantAlice.helper.ModHelper;
 import merchantAlice.modCore.Enums;
 import merchantAlice.powers.ResourcefullyPower;
 
@@ -48,6 +50,9 @@ public abstract class AbstractMerchantAliceCard extends CustomCard {
 
 
     public static String getPicPath(String name, CardType type) {
+        if(ModHelper.isFileExist(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/cards/" + name + ".png"))
+            return "MerchantAliceModResources/img/cards/" + name + ".png";
+
 //        if (Gdx.files.internal("MerchantAliceModResources/img/cards/" + name + ".png").exists())
 //            return "MerchantAliceModResources/img/cards/" + name + ".png";
 

@@ -22,41 +22,42 @@ public class ImageHelper {
     public static Texture DesireUI;
     public static Texture NullTopLever;
 
+
     static {
         for (int i = 1; i < 5; i++)
             SP.add(AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/char/StandingPortrait/" + i + ".png"));
 
         for (int i = 1; i < 5; i++)
-            SPDie.add(AssetLoader.getTexture(MerchantAlice.MOD_ID,"MerchantAliceModResources/img/char/Die/" + i + ".png"));
+            SPDie.add(AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/char/Die/" + i + ".png"));
 
         for (int i = 1; i < 5; i++)
-            SPNudity.add(AssetLoader.getTexture(MerchantAlice.MOD_ID,"MerchantAliceModResources/img/char/StandingPortrait2/" + i + ".png"));
+            SPNudity.add(AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/char/StandingPortrait2/" + i + ".png"));
 
         for (int i = 1; i < 5; i++)
-            SPEmbarrassment.add(AssetLoader.getTexture(MerchantAlice.MOD_ID,"MerchantAliceModResources/img/char/StandingPortrait3/" + i + ".png"));
+            SPEmbarrassment.add(AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/char/StandingPortrait3/" + i + ".png"));
 
         for (int i = 1; i < 7; i++)
-            SPTentacle.add(AssetLoader.getTexture(MerchantAlice.MOD_ID,"MerchantAliceModResources/img/char/Tentacle/" + i + ".png"));
+            SPTentacle.add(AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/char/Tentacle/" + i + ".png"));
 
         for (int i = 1; i < 5; i++)
-            SPSelfComfort.add(AssetLoader.getTexture(MerchantAlice.MOD_ID,"MerchantAliceModResources/img/char/SelfComfort/" + i + ".png"));
+            SPSelfComfort.add(AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/char/SelfComfort/" + i + ".png"));
 
         for (int i = 1; i < 9; i++)
-            Baoyi.add(AssetLoader.getTexture(MerchantAlice.MOD_ID,"MerchantAliceModResources/img/aniGif/baoyi/" + i + ".png"));
+            Baoyi.add(AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/aniGif/baoyi/" + i + ".png"));
 
         for (int i = 1; i < 5; i++)
-            BaoyiSP.add(AssetLoader.getTexture(MerchantAlice.MOD_ID,"MerchantAliceModResources/img/aniGif/baoyiSp/" + i + ".png"));
+            BaoyiSP.add(AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/aniGif/baoyiSp/" + i + ".png"));
 
         for (int i = 1; i < 32; i++)
-            Wrap.add(AssetLoader.getTexture(MerchantAlice.MOD_ID,"MerchantAliceModResources/img/aniGif/Wrap/" + i + ".png"));
+            Wrap.add(AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/aniGif/Wrap/" + i + ".png"));
 
         for (int i = 1; i < 14; i++)
-            Hit.add(AssetLoader.getTexture(MerchantAlice.MOD_ID,"MerchantAliceModResources/img/aniGif/hit/" + i + ".png"));
+            Hit.add(AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/aniGif/hit/" + i + ".png"));
 
         for (int i = 1; i < 5; i++)
-            heart.add(AssetLoader.getTexture(MerchantAlice.MOD_ID,"MerchantAliceModResources/img/vfx/heart" + i + ".png"));
+            heart.add(AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/vfx/heart" + i + ".png"));
 
-        DesireUI = AssetLoader.getTexture(MerchantAlice.MOD_ID,"MerchantAliceModResources/img/UI/DesireUI.png");
-        NullTopLever = AssetLoader.getTexture(MerchantAlice.MOD_ID,"MerchantAliceModResources/img/char/null.png");
+        DesireUI = AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/UI/DesireUI.png");
+        NullTopLever = AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/char/null.png");
     }
 }
