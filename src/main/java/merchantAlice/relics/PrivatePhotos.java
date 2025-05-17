@@ -1,9 +1,11 @@
 package merchantAlice.relics;
 
+import com.megacrit.cardcrawl.android.mods.AssetLoader;
 import com.megacrit.cardcrawl.android.mods.abstracts.CustomRelic;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import merchantAlice.MerchantAlice;
 import merchantAlice.actions.GainDesireAction;
 import merchantAlice.characters.Char;
 import merchantAlice.helper.ModHelper;
@@ -15,7 +17,7 @@ public class PrivatePhotos extends CustomRelic {
 
 
     public PrivatePhotos() {
-        super(ID, ImageMaster.loadImage(IMG), ImageMaster.loadImage(IMG), RelicTier.COMMON, LandingSound.MAGICAL);
+        super(ID, AssetLoader.getTexture(MerchantAlice.MOD_ID, IMG), AssetLoader.getTexture(MerchantAlice.MOD_ID, IMG), RelicTier.COMMON, LandingSound.MAGICAL);
     }
 
 

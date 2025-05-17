@@ -1,5 +1,6 @@
 package merchantAlice.relics;
 
+import com.megacrit.cardcrawl.android.mods.AssetLoader;
 import com.megacrit.cardcrawl.android.mods.abstracts.CustomRelic;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
@@ -8,6 +9,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
+import merchantAlice.MerchantAlice;
 import merchantAlice.helper.ModHelper;
 
 import java.util.ArrayList;
@@ -21,7 +23,7 @@ public class BrandNewMarkerPen extends CustomRelic {
     private boolean cardsSelected = true;
 
     public BrandNewMarkerPen() {
-        super(ID, ImageMaster.loadImage(IMG), ImageMaster.loadImage(IMG), RelicTier.UNCOMMON, LandingSound.MAGICAL);
+        super(ID, AssetLoader.getTexture(MerchantAlice.MOD_ID, IMG), AssetLoader.getTexture(MerchantAlice.MOD_ID, IMG), RelicTier.UNCOMMON, LandingSound.MAGICAL);
     }
 
     public void onEquip() {

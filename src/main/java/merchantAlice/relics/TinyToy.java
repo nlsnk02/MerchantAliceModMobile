@@ -1,10 +1,12 @@
 package merchantAlice.relics;
 
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
+import com.megacrit.cardcrawl.android.mods.AssetLoader;
 import com.megacrit.cardcrawl.android.mods.abstracts.CustomRelic;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import merchantAlice.MerchantAlice;
 import merchantAlice.characters.Char;
 import merchantAlice.helper.ModHelper;
 import merchantAlice.misc.DesireUI;
@@ -16,7 +18,7 @@ public class TinyToy extends CustomRelic {
 
 
     public TinyToy() {
-        super(ID, ImageMaster.loadImage(IMG), ImageMaster.loadImage(IMG), RelicTier.UNCOMMON, LandingSound.MAGICAL);
+        super(ID, AssetLoader.getTexture(MerchantAlice.MOD_ID, IMG), AssetLoader.getTexture(MerchantAlice.MOD_ID, IMG), RelicTier.UNCOMMON, LandingSound.MAGICAL);
     }
 
 

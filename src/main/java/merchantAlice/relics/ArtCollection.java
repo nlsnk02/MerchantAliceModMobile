@@ -3,11 +3,13 @@ package merchantAlice.relics;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
+import com.megacrit.cardcrawl.android.mods.AssetLoader;
 import com.megacrit.cardcrawl.android.mods.abstracts.CustomRelic;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import merchantAlice.MerchantAlice;
 import merchantAlice.helper.ModHelper;
 
 public class ArtCollection extends CustomRelic {
@@ -17,7 +19,7 @@ public class ArtCollection extends CustomRelic {
 
 
     public ArtCollection() {
-        super(ID, ImageMaster.loadImage(IMG), ImageMaster.loadImage(IMG), RelicTier.SHOP, LandingSound.MAGICAL);
+        super(ID, AssetLoader.getTexture(MerchantAlice.MOD_ID, IMG), AssetLoader.getTexture(MerchantAlice.MOD_ID, IMG), RelicTier.SHOP, LandingSound.MAGICAL);
     }
 
 

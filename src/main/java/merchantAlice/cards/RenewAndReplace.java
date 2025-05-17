@@ -9,6 +9,7 @@ import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndAddToDiscardEffect;
 import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndAddToHandEffect;
+import merchantAlice.helper.CardTagHelper;
 
 public class RenewAndReplace extends AbstractMerchantAliceCard {
     public RenewAndReplace() {
@@ -46,6 +47,10 @@ public class RenewAndReplace extends AbstractMerchantAliceCard {
                         AbstractCard c2 = c.makeStatEquivalentCopy();
 //                        CardModifierManager.addModifier(c1, new ExhaustMod());
 //                        CardModifierManager.addModifier(c2, new ExhaustMod());
+                        CardTagHelper.exhaustCards.add(c1);
+                        c1.exhaust = true;
+                        CardTagHelper.exhaustCards.add(c2);
+                        c2.exhaust = true;
 
                         if (AbstractDungeon.player.hand.size() == 10) {
                             AbstractDungeon.effectList.add(new ShowCardAndAddToDiscardEffect(c1, (float) Settings.WIDTH / 2.0F + AbstractCard.IMG_WIDTH, (float) Settings.HEIGHT / 2.0F));

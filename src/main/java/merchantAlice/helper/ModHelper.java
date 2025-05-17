@@ -1,6 +1,10 @@
 package merchantAlice.helper;
 
 import com.badlogic.gdx.files.FileHandle;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.Matrix4;
+import com.badlogic.gdx.math.Vector2;
 import com.megacrit.cardcrawl.android.mods.Loader;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
@@ -19,7 +23,9 @@ public class ModHelper {
     public static final Logger logger = LogManager.getLogger(ModHelper.class.getName());
 
     public static boolean isInGame() {
-        return (AbstractDungeon.getCurrRoom()).phase == AbstractRoom.RoomPhase.COMBAT &&
+        return AbstractDungeon.currMapNode != null &&
+                AbstractDungeon.currMapNode.room != null &&
+                (AbstractDungeon.getCurrRoom()).phase == AbstractRoom.RoomPhase.COMBAT &&
                 AbstractDungeon.player != null;
     }
 
@@ -90,25 +96,32 @@ public class ModHelper {
         }
     }
 
-    public static void deckMoveToHand(AbstractCard c) {
-        if (!AbstractDungeon.player.drawPile.contains(c)) return;
+    private static final Matrix4 mx4 = new Matrix4();
+    private static final Matrix4 rotatedTextMatrix = new Matrix4();
+    public static void renderRotateTexture(SpriteBatch sb, Texture t, float x, float y, float offsetX, float offsetY, float scale, float angle){
+        mx4.setToRotation(0.0F, 0.0F, 1.0F, angle);
 
-        if (AbstractDungeon.player.hand.size() >= 10) {
-            AbstractDungeon.player.drawPile.moveToDiscardPile(c);
-            AbstractDungeon.player.createHandIsFullDialog();
-        } else {
-            c.unhover();
-            c.lighten(true);
-            c.setAngle(0.0F);
-            c.drawScale = 0.12F;
-            c.targetDrawScale = 0.75F;
-            c.current_x = CardGroup.DRAW_PILE_X;
-            c.current_y = CardGroup.DRAW_PILE_Y;
-            c.flash();
-            AbstractDungeon.player.drawPile.removeCard(c);
-            AbstractDungeon.player.hand.addToTop(c);
-            AbstractDungeon.player.hand.refreshHandLayout();
-            AbstractDungeon.player.hand.applyPowers();
-        }
+        Vector2 vec = new Vector2(offsetX, offsetY);
+        ModHelper.rotate(vec, angle);
+        mx4.trn(x + vec.x,
+                y + vec.y, 0.0F);
+        sb.end();
+        sb.setTransformMatrix(mx4);
+        sb.begin();
+        sb.draw(t, 0, 0, 0, 0, t.getWidth(), t.getHeight(), scale, scale, 0,
+                0, 0, t.getWidth(), t.getHeight(), false, false);
+        sb.end();
+        sb.setTransformMatrix(rotatedTextMatrix);
+        sb.begin();
+    }
+
+    //旋转
+    public static void rotate(Vector2 vec, float radians) {
+        float cos = (float) Math.cos((double) radians * 0.017453292F);
+        float sin = (float) Math.sin((double) radians * 0.017453292F);
+        float newX = vec.x * cos - vec.y * sin;
+        float newY = vec.x * sin + vec.y * cos;
+        vec.x = newX;
+        vec.y = newY;
     }
 }

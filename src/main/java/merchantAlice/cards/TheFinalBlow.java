@@ -5,6 +5,7 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import merchantAlice.actions.DrawFromDiscardpileAction;
+import merchantAlice.helper.CardTagHelper;
 
 public class TheFinalBlow extends AbstractMerchantAliceCard {
     public TheFinalBlow() {
@@ -19,6 +20,10 @@ public class TheFinalBlow extends AbstractMerchantAliceCard {
                 for(AbstractCard c : DrawFromDiscardpileAction.drawnCards){
 //                    CardModifierManager.addModifier(c, new ExhaustMod());
 //                    CardModifierManager.addModifier(c, new EtherealMod());
+                    CardTagHelper.etherealedCards.add(c);
+                    CardTagHelper.exhaustCards.add(c);
+                    c.exhaust = true;
+                    c.isEthereal = true;
                     c.modifyCostForCombat(-99);
                 }
                 this.isDone = true;

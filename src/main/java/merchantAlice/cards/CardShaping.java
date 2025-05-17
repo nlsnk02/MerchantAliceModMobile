@@ -1,9 +1,12 @@
 package merchantAlice.cards;
 
+import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import merchantAlice.helper.CardTagHelper;
 
 public class CardShaping extends AbstractMerchantAliceCard {
     public CardShaping() {
@@ -15,15 +18,17 @@ public class CardShaping extends AbstractMerchantAliceCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new GainBlockAction(p, p, this.block));
-//        addToBot(new DrawCardAction(this.magicNumber, new AbstractGameAction() {
-//            @Override
-//            public void update() {
-//                for(AbstractCard c : DrawCardAction.drawnCards){
+        addToBot(new DrawCardAction(this.magicNumber, new AbstractGameAction() {
+            @Override
+            public void update() {
+                for(AbstractCard c : DrawCardAction.drawnCards){
 //                    CardModifierManager.addModifier(c, new RetainMod());
-//                }
-//                this.isDone = true;
-//            }
-//        }));
+                    CardTagHelper.retianedCards.add(c);
+                    c.selfRetain = true;
+                }
+                this.isDone = true;
+            }
+        }));
     }
 
     @Override

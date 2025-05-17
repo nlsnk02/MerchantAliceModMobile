@@ -6,6 +6,7 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import merchantAlice.helper.CardTagHelper;
 import merchantAlice.powers.AGamblePower;
 
 public class AGamble extends AbstractMerchantAliceCard {
@@ -29,6 +30,10 @@ public class AGamble extends AbstractMerchantAliceCard {
                         c.modifyCostForCombat(-99);
 //                        CardModifierManager.addModifier(c, new ExhaustMod());
 //                        CardModifierManager.addModifier(c, new EtherealMod());
+                        CardTagHelper.etherealedCards.add(c);
+                        CardTagHelper.exhaustCards.add(c);
+                        c.exhaust = true;
+                        c.isEthereal = true;
                         c.flash();
                     }
                 }

@@ -6,6 +6,7 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import merchantAlice.helper.CardTagHelper;
 
 public class MockBattle extends AbstractMerchantAliceCard {
     public MockBattle() {
@@ -41,6 +42,8 @@ public class MockBattle extends AbstractMerchantAliceCard {
                 if (!AbstractDungeon.handCardSelectScreen.wereCardsRetrieved) {
                     for (AbstractCard c : AbstractDungeon.handCardSelectScreen.selectedCards.group) {
 //                        CardModifierManager.addModifier(c, new RetainMod());
+                        CardTagHelper.retianedCards.add(c);
+                        c.selfRetain = true;
                         AbstractDungeon.player.hand.addToHand(c);
                     }
                     AbstractDungeon.handCardSelectScreen.selectedCards.clear();

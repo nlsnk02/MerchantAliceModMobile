@@ -7,6 +7,7 @@ import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import merchantAlice.helper.CardTagHelper;
 
 public class StartStrike extends AbstractMerchantAliceCard {
     public StartStrike() {

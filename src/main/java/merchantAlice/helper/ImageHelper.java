@@ -21,6 +21,9 @@ public class ImageHelper {
 
     public static Texture DesireUI;
     public static Texture NullTopLever;
+    public static Texture Retain;
+    public static Texture Exhaust;
+    public static Texture Ethereal;
 
 
     static {
@@ -59,5 +62,8 @@ public class ImageHelper {
 
         DesireUI = AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/UI/DesireUI.png");
         NullTopLever = AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/char/null.png");
+        Retain = AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/UI/keywordIcons/Retain.png");
+        Exhaust = AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/UI/keywordIcons/Exhaust.png");
+        Ethereal = AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/UI/keywordIcons/Ethereal.png");
     }
 }

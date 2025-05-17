@@ -11,6 +11,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+import merchantAlice.helper.CardTagHelper;
 import merchantAlice.helper.ModHelper;
 
 import java.util.ArrayList;
@@ -54,6 +55,8 @@ public class ShowingWeaknessPower extends AbstractPower {
                         for (AbstractCard c : DrawCardAction.drawnCards) {
                             c.modifyCostForCombat(-2);
 //                            CardModifierManager.addModifier(c, new RetainMod());
+                            CardTagHelper.retianedCards.add(c);
+                            c.selfRetain = true;
 
                             if (c.type == AbstractCard.CardType.CURSE) {
                                 addToTop(new ExhaustSpecificCardAction(c, AbstractDungeon.player.hand));

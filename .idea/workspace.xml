@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1813c0ba-477d-4b7f-ae3f-3b602465c6b0" name="更改" comment="改了半天最后啥也没改。。上传一下吧，这个版本勉强能玩">
+      <change afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/helper/CardTagHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/img/UI/keywordIcons/Ethereal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/img/UI/keywordIcons/Exhaust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/img/UI/keywordIcons/Innate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/img/UI/keywordIcons/Purge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/img/UI/keywordIcons/Retain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/MerchantAlice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/MerchantAlice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/AGamble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/AGamble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/CardShaping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/CardShaping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/MockBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/MockBattle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/RenewAndReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/RenewAndReplace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/StartStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/StartStrike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/TheFinalBlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/TheFinalBlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/helper/ImageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/helper/ImageHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/helper/ModHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/helper/ModHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/powers/ShowingWeaknessPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/powers/ShowingWeaknessPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/ArtAssets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/ArtAssets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/ArtCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/ArtCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/BrandNewMarkerPen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/BrandNewMarkerPen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/EvilPencil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/EvilPencil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/FlowerCard2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/FlowerCard2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/PrivatePhotos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/PrivatePhotos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/TinyToy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/TinyToy.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nlsnk02&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nlsnk02/MerchantAliceModMobile.git&quot;,
+    &quot;accountId&quot;: &quot;ef9d4f2a-4b0a-46ef-9592-9b2261854f8c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2wyZYvmsqYrmFkeHre5SMoRyjU5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="1813c0ba-477d-4b7f-ae3f-3b602465c6b0" name="更改" comment="" />
+      <created>1747015826031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747015826031</updated>
+      <workItem from="1747015827900" duration="1004000" />
+      <workItem from="1747016908262" duration="100000" />
+      <workItem from="1747017026219" duration="2624000" />
+      <workItem from="1747056934675" duration="13000" />
+      <workItem from="1747126082815" duration="7320000" />
+      <workItem from="1747279263052" duration="12000" />
+      <workItem from="1747323776068" duration="120000" />
+      <workItem from="1747336394656" duration="2000" />
+      <workItem from="1747360270876" duration="2000" />
+      <workItem from="1747472490371" duration="1126000" />
+      <workItem from="1747473648784" duration="496000" />
+      <workItem from="1747474379201" duration="82000" />
+      <workItem from="1747474509268" duration="1365000" />
+      <workItem from="1747475939477" duration="577000" />
+      <workItem from="1747476545737" duration="508000" />
+      <workItem from="1747477079227" duration="5055000" />
+    </task>
+    <task id="LOCAL-00001" summary="改了半天最后啥也没改。。上传一下吧，这个版本勉强能玩">
+      <option name="closed" value="true" />
+      <created>1747130118561</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747130118561</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="改了半天最后啥也没改。。上传一下吧，这个版本勉强能玩" />
+    <option name="LAST_COMMIT_MESSAGE" value="改了半天最后啥也没改。。上传一下吧，这个版本勉强能玩" />
+  </component>
+</project>

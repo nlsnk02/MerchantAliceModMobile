@@ -3,11 +3,13 @@ package merchantAlice.relics;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
+import com.megacrit.cardcrawl.android.mods.AssetLoader;
 import com.megacrit.cardcrawl.android.mods.abstracts.CustomRelic;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import merchantAlice.MerchantAlice;
 import merchantAlice.cards.Sketch;
 import merchantAlice.helper.ModHelper;
 
@@ -19,7 +21,7 @@ public class EvilPencil extends CustomRelic {
     private AbstractCard cardToPreView;
 
     public EvilPencil() {
-        super(ID, ImageMaster.loadImage(IMG), ImageMaster.loadImage(IMG), RelicTier.RARE, LandingSound.MAGICAL);
+        super(ID, AssetLoader.getTexture(MerchantAlice.MOD_ID, IMG), AssetLoader.getTexture(MerchantAlice.MOD_ID, IMG), RelicTier.RARE, LandingSound.MAGICAL);
         this.counter = 0;
         this.cardToPreView = new Sketch();
     }

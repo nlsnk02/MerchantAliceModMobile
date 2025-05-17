@@ -2,6 +2,7 @@ package merchantAlice;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.android.mods.AssetLoader;
 import com.megacrit.cardcrawl.android.mods.BaseMod;
@@ -17,7 +18,9 @@ import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import merchantAlice.actions.GainDesireAction;
 import merchantAlice.cards.*;
 import merchantAlice.characters.Char;
+import merchantAlice.helper.CardTagHelper;
 import merchantAlice.helper.ImageHelper;
+import merchantAlice.helper.ModHelper;
 import merchantAlice.misc.DesireUI;
 import merchantAlice.modCore.Enums;
 import merchantAlice.relics.*;
@@ -38,7 +41,10 @@ public class MerchantAlice implements
         EditCardsSubscriber,
         EditStringsSubscriber,
         OnCardUseSubscriber,
-        EditKeywordsSubscriber {
+        EditKeywordsSubscriber,
+        PostRenderSubscriber,
+        StartGameSubscriber,
+        PostBattleSubscriber {
     public static final String MOD_ID = "MerchantAlice";
 
     public static final Logger logger = LogManager.getLogger(MerchantAlice.class.getName());
@@ -217,13 +223,13 @@ public class MerchantAlice implements
     @Override
     public void receiveEditRelics() {
         logger.info("===============加载遗物===============");
-//        BaseMod.addRelicToCustomPool(new FlowerCard2(), MerchantAliceColor);
-//        BaseMod.addRelicToCustomPool(new ArtAssets(), MerchantAliceColor);
-//        BaseMod.addRelicToCustomPool(new ArtCollection(), MerchantAliceColor);
-//        BaseMod.addRelicToCustomPool(new BrandNewMarkerPen(), MerchantAliceColor);
-//        BaseMod.addRelicToCustomPool(new EvilPencil(), MerchantAliceColor);
-//        BaseMod.addRelicToCustomPool(new PrivatePhotos(), MerchantAliceColor);
-//        BaseMod.addRelicToCustomPool(new TinyToy(), MerchantAliceColor);
+        BaseMod.addRelicToCustomPool(new FlowerCard2(), MerchantAliceColor);
+        BaseMod.addRelicToCustomPool(new ArtAssets(), MerchantAliceColor);
+        BaseMod.addRelicToCustomPool(new ArtCollection(), MerchantAliceColor);
+        BaseMod.addRelicToCustomPool(new BrandNewMarkerPen(), MerchantAliceColor);
+        BaseMod.addRelicToCustomPool(new EvilPencil(), MerchantAliceColor);
+        BaseMod.addRelicToCustomPool(new PrivatePhotos(), MerchantAliceColor);
+        BaseMod.addRelicToCustomPool(new TinyToy(), MerchantAliceColor);
         logger.info("===============加载遗物===============");
     }
 
@@ -282,15 +288,19 @@ public class MerchantAlice implements
         }
     }
 
+    @Override
+    public void receivePostRender(SpriteBatch spriteBatch) {
+        CardTagHelper.render(spriteBatch);
+    }
 
-//    @Override
-//    public void receivePostDraw(AbstractCard arg0) {
-//        ModHelper.CardsHaveDrawnThisTurn += 1;
-//    }
-//
-//    @Override
-//    public void receiveOnPlayerTurnStart() {
-//        ModHelper.CardsHaveDrawnThisTurn = -1 * Math.min(AbstractDungeon.player.gameHandSize, BaseMod.MAX_HAND_SIZE - AbstractDungeon.player.hand.size());
-//    }
+    @Override
+    public void receivePostBattle(AbstractRoom abstractRoom) {
+        CardTagHelper.init();
+    }
+
+    @Override
+    public void receiveStartGame() {
+        CardTagHelper.init();
+    }
 }
 
