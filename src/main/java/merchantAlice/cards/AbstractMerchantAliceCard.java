@@ -22,6 +22,8 @@ public abstract class AbstractMerchantAliceCard extends CustomCard {
     public String DESCRIPTION_UPG;
     public String[] EXTENDED_DESCRIPTION;
 
+    public int retainAmount=0;
+
     public AbstractMerchantAliceCard(
             String NAME,
             int COST,
@@ -100,6 +102,11 @@ public abstract class AbstractMerchantAliceCard extends CustomCard {
 
     public void triggerOnOtherManualDiscard(AbstractCard c) {
 
+    }
+
+    @Override
+    public void onRetained() {
+        retainAmount++;
     }
 
     @Override

@@ -163,7 +163,7 @@
   },
   "MerchantAlice:CardDeckBuilding": {
     "NAME": "卡牌构筑",
-    "DESCRIPTION": "洗牌。 NL 抽 !M! 张牌。",
+    "DESCRIPTION": "将抽牌堆洗牌。 NL 抽 !M! 张牌。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:ChasingShadows": {
@@ -400,12 +400,12 @@
   },
   "MerchantAlice:Tentacle": {
     "NAME": "触手召唤",
-    "DESCRIPTION": "不可移除，无法逃脱，不可升级。 NL 进入触手姿态：你的下三回合开始时，获得3层 merchantalice:欲望 和7点 格挡 。",
+    "DESCRIPTION": "无法逃脱，不可升级。 NL 进入触手姿态：你的下三回合开始时，获得3层 merchantalice:欲望 和7点 格挡 。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:SelfComfort": {
     "NAME": "自慰姿态",
-    "DESCRIPTION": "不可移除，无法逃脱，不可升级。 NL 进入自慰姿态：你的下四回合开始时，获得4层 merchantalice:欲望 。",
+    "DESCRIPTION": "无法逃脱，不可升级。 NL 进入自慰姿态：你的下四回合开始时，获得4层 merchantalice:欲望 。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:ChooseDrawcard": {

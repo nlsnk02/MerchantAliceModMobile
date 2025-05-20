@@ -4,8 +4,12 @@ import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.curses.Necronomicurse;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.vfx.NecronomicurseEffect;
 import merchantAlice.misc.TentacleStance;
 
 public class Tentacle extends AbstractMerchantAliceCard {
@@ -34,6 +38,11 @@ public class Tentacle extends AbstractMerchantAliceCard {
 
     @Override
     public void upgrade() {
+    }
+
+    @Override
+    public void onRemoveFromMasterDeck() {
+        AbstractDungeon.effectsQueue.add(new NecronomicurseEffect(makeCopy(), (float) Settings.WIDTH / 2.0F, (float)Settings.HEIGHT / 2.0F));
     }
 
     @Override

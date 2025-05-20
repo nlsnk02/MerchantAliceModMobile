@@ -5,7 +5,10 @@ import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.actions.watcher.ChangeStanceAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.vfx.NecronomicurseEffect;
 import merchantAlice.misc.SelfComfortStance;
 
 public class SelfComfort extends AbstractMerchantAliceCard {
@@ -39,6 +42,11 @@ public class SelfComfort extends AbstractMerchantAliceCard {
     @Override
     public void triggerOnExhaust() {
         addToBot(new MakeTempCardInHandAction(makeCopy()));
+    }
+
+    @Override
+    public void onRemoveFromMasterDeck() {
+        AbstractDungeon.effectsQueue.add(new NecronomicurseEffect(makeCopy(), (float) Settings.WIDTH / 2.0F, (float)Settings.HEIGHT / 2.0F));
     }
 
     @Override

@@ -4,30 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1813c0ba-477d-4b7f-ae3f-3b602465c6b0" name="更改" comment="改了半天最后啥也没改。。上传一下吧，这个版本勉强能玩">
-      <change afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/helper/CardTagHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/img/UI/keywordIcons/Ethereal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/img/UI/keywordIcons/Exhaust.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/img/UI/keywordIcons/Innate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/img/UI/keywordIcons/Purge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/img/UI/keywordIcons/Retain.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/MerchantAlice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/MerchantAlice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/AGamble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/AGamble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/CardShaping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/CardShaping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/MockBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/MockBattle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/RenewAndReplace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/RenewAndReplace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/StartStrike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/StartStrike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/TheFinalBlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/TheFinalBlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/helper/ImageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/helper/ImageHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/helper/ModHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/helper/ModHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/powers/ShowingWeaknessPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/powers/ShowingWeaknessPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/ArtAssets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/ArtAssets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/ArtCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/ArtCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/BrandNewMarkerPen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/BrandNewMarkerPen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/EvilPencil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/EvilPencil.java" afterDir="false" />
+    <list default="true" id="1813c0ba-477d-4b7f-ae3f-3b602465c6b0" name="更改" comment="修复了modifier">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/Abandon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/Abandon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/AbstractMerchantAliceCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/AbstractMerchantAliceCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/SelfComfort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/SelfComfort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/SuperficialGlance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/SuperficialGlance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/Tentacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/cards/Tentacle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/powers/SuperficialGlancePower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/powers/SuperficialGlancePower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/powers/WinThroughClevernessPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/powers/WinThroughClevernessPower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/FlowerCard2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/FlowerCard2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/PrivatePhotos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/PrivatePhotos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/TinyToy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/merchantAlice/relics/TinyToy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/localization/cards_zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/localization/cards_zh.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/localization/characters_zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MerchantAliceModResources/localization/characters_zh.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +101,13 @@
       <workItem from="1747474509268" duration="1365000" />
       <workItem from="1747475939477" duration="577000" />
       <workItem from="1747476545737" duration="508000" />
-      <workItem from="1747477079227" duration="5055000" />
+      <workItem from="1747477079227" duration="5992000" />
+      <workItem from="1747485344828" duration="165000" />
+      <workItem from="1747565440319" duration="21000" />
+      <workItem from="1747668573880" duration="1214000" />
+      <workItem from="1747706036921" duration="3542000" />
+      <workItem from="1747710171846" duration="291000" />
+      <workItem from="1747710527732" duration="410000" />
     </task>
     <task id="LOCAL-00001" summary="改了半天最后啥也没改。。上传一下吧，这个版本勉强能玩">
       <option name="closed" value="true" />
@@ -123,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747130118561</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修复了modifier">
+      <option name="closed" value="true" />
+      <created>1747482296811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747482296811</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="改了半天最后啥也没改。。上传一下吧，这个版本勉强能玩" />
-    <option name="LAST_COMMIT_MESSAGE" value="改了半天最后啥也没改。。上传一下吧，这个版本勉强能玩" />
+    <MESSAGE value="修复了modifier" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了modifier" />
   </component>
 </project>

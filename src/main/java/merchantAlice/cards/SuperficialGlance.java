@@ -5,8 +5,10 @@ import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.relics.FrozenEye;
 import merchantAlice.powers.SuperficialGlancePower;
 
 import java.util.Iterator;
@@ -67,7 +69,19 @@ public class SuperficialGlance extends AbstractMerchantAliceCard {
                     }
                 }
             });
-        addToBot(new ApplyPowerAction(p, p, new SuperficialGlancePower(p)));
+//        addToBot(new ApplyPowerAction(p, p, new SuperficialGlancePower(p)));
+
+        addToBot(new AbstractGameAction() {
+
+            @Override
+            public void update() {
+                if (!AbstractDungeon.player.hasRelic(FrozenEye.ID)) {
+                    AbstractDungeon.getCurrRoom().spawnRelicAndObtain((Settings.WIDTH / 2), (Settings.HEIGHT / 2), new FrozenEye());
+                    addToTop(new ApplyPowerAction(p, p, new SuperficialGlancePower(p)));
+                }
+                this.isDone = true;
+            }
+        });
     }
 
     @Override

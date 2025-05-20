@@ -48,7 +48,7 @@ public class Abandon extends AbstractMerchantAliceCard {
 
 //                        int count = RestoreRetainedCardsActionPatch.retainCounts.get(abstractCard.cardID) == null ?
 //                                0 : RestoreRetainedCardsActionPatch.retainCounts.get(abstractCard.cardID);
-                        int count = 0;
+                        int count = ((AbstractMerchantAliceCard)abstractCard).retainAmount;
 
                         baseDamage = baseDamage + baseMagicNumber * count;
                         calculateCardDamage(m);

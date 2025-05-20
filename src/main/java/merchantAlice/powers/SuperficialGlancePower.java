@@ -2,8 +2,10 @@ package merchantAlice.powers;
 
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.relics.FrozenEye;
 import merchantAlice.helper.ModHelper;
 
 public class SuperficialGlancePower extends AbstractPower {
@@ -31,5 +33,10 @@ public class SuperficialGlancePower extends AbstractPower {
 
     public void updateDescription() {
         this.description = DESCRIPTIONS[0];
+    }
+
+    @Override
+    public void onVictory() {
+        AbstractDungeon.player.loseRelic(FrozenEye.ID);
     }
 }

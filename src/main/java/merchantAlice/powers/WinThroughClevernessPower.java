@@ -36,25 +36,27 @@ public class WinThroughClevernessPower extends AbstractPower {
     }
 
 
-    public void atStartOfTurnOwn() {
-        addToBot(new DrawCardAction(this.amount, new AbstractGameAction() {
+    @Override
+    public void atEndOfTurn(boolean isPlayer) {
+        if (isPlayer)
+            addToBot(new DrawCardAction(this.amount, new AbstractGameAction() {
 
-            {
-                this.duration = 0.5F;
-            }
+                {
+                    this.duration = 0.5F;
+                }
 
-            @Override
-            public void update() {
-                tickDuration();
-                if (this.isDone) {
-                    for (AbstractCard c : DrawCardAction.drawnCards) {
-                        AbstractDungeon.player.hand.moveToDiscardPile(c);
-                        c.triggerOnManualDiscard();
-                        GameActionManager.incrementDiscard(false);
+                @Override
+                public void update() {
+                    tickDuration();
+                    if (this.isDone) {
+                        for (AbstractCard c : DrawCardAction.drawnCards) {
+                            AbstractDungeon.player.hand.moveToDiscardPile(c);
+                            c.triggerOnManualDiscard();
+                            GameActionManager.incrementDiscard(false);
+                        }
                     }
                 }
-            }
-        }));
+            }));
     }
 
     public void updateDescription() {
