@@ -52,7 +52,8 @@ public class Abandon extends AbstractMerchantAliceCard {
 
                         baseDamage = baseDamage + baseMagicNumber * count;
                         calculateCardDamage(m);
-                        baseDamage = baseDamage - baseMagicNumber;
+                        baseDamage = baseDamage - baseMagicNumber * count;
+
                         if (baseDamage != damage) isDamageModified = true;
                         addToTop(new DamageAction(m, new DamageInfo(p, Abandon.this.damage, Abandon.this.damageTypeForTurn),
                                 AbstractGameAction.AttackEffect.SLASH_HORIZONTAL));

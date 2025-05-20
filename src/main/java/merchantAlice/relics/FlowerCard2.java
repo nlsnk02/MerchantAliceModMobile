@@ -42,7 +42,7 @@ public class FlowerCard2 extends CustomRelic {
     }
 
     @Override
-    public void atTurnStart() {
+    public void atTurnStartPostDraw() {
         if (this.counter > 0) {
             counter--;
             ArrayList<AbstractCard> stanceChoices = new ArrayList<>();
@@ -56,6 +56,15 @@ public class FlowerCard2 extends CustomRelic {
                 }
             });
         }
+
+        addToBot(new AbstractGameAction() {
+
+            @Override
+            public void update() {
+                ModHelper.CardsHaveDrawnThisTurn = 0;
+                this.isDone = true;
+            }
+        });
     }
 
     @Override
@@ -73,6 +82,11 @@ public class FlowerCard2 extends CustomRelic {
                 ((OnManualDiscardPower) p).onManualDiscard();
             }
         }
+    }
+
+    @Override
+    public void onCardDraw(AbstractCard drawnCard) {
+        ModHelper.CardsHaveDrawnThisTurn++;
     }
 
     @Override

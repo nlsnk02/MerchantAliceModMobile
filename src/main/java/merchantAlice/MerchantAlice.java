@@ -205,7 +205,7 @@ public class MerchantAlice implements
         Keyword[] keywords = gson.fromJson(json, Keyword[].class);
         if (keywords != null) {
             for (Keyword keyword : keywords) {
-                BaseMod.addKeyword("merchantalice", keyword.NAMES[0], keyword.NAMES, keyword.DESCRIPTION);
+                BaseMod.addKeyword(keyword.NAMES[0], keyword.NAMES, keyword.DESCRIPTION);
             }
         }
         logger.info("===============加载关键字===============");

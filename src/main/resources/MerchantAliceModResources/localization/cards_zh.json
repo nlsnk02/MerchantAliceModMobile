@@ -35,12 +35,12 @@
   },
   "MerchantAlice:Solemn": {
     "NAME": "严肃",
-    "DESCRIPTION": "获得 !M! 点 力量 。 NL 如果这张牌从你的手牌中被丢弃，获得2层 merchantalice:欲望 并抽一张牌。",
+    "DESCRIPTION": "获得 !M! 点 力量 。 NL 如果这张牌从你的手牌中被丢弃，获得2层 欲望 并抽一张牌。",
     "UPGRADE_DESCRIPTION": "wwwwwwww"
   },
   "MerchantAlice:BadManners": {
     "NAME": "失礼",
-    "DESCRIPTION": "获得3层 merchantalice:欲望 。 NL 如果这张牌从你的手牌中被丢弃，获得 !M! 点 力量  并抽一张牌。",
+    "DESCRIPTION": "获得3层 欲望 。 NL 如果这张牌从你的手牌中被丢弃，获得 !M! 点 力量  并抽一张牌。",
     "UPGRADE_DESCRIPTION": "wwwwwwww"
   },
   "MerchantAlice:Overambitious": {
@@ -90,8 +90,8 @@
   },
   "MerchantAlice:Unstoppable": {
     "NAME": "势不可挡",
-    "DESCRIPTION": "丢弃1张牌，获得等同其耗能的 力量 ， 敏捷 ， merchantalice:欲望 。",
-    "UPGRADE_DESCRIPTION": "丢弃2张牌，获得等同其耗能之和的 力量 ， 敏捷 ， merchantalice:欲望 。"
+    "DESCRIPTION": "丢弃1张牌，获得等同其耗能的 力量 ， 敏捷 ， 欲望 。",
+    "UPGRADE_DESCRIPTION": "丢弃2张牌，获得等同其耗能之和的 力量 ， 敏捷 ， 欲望 。"
   },
   "MerchantAlice:Weigh": {
     "NAME": "权衡",
@@ -120,7 +120,7 @@
   },
   "MerchantAlice:ReviewAndLearn": {
     "NAME": "温故知新",
-    "DESCRIPTION": "每丢弃一张牌，获得 !M! 层 merchantalice:欲望 。",
+    "DESCRIPTION": "每丢弃一张牌，获得 !M! 层 欲望 。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:OneServesTwo": {
@@ -211,8 +211,8 @@
   },
   "MerchantAlice:DesireImpact": {
     "NAME": "欲望冲击",
-    "DESCRIPTION": "抽与 merchantalice:欲望 层数相同张牌。",
-    "UPGRADE_DESCRIPTION": "抽与 merchantalice:欲望 层数相同张牌。 NL 获得 !M! 层 merchantalice:欲望 。"
+    "DESCRIPTION": "抽与 欲望 层数相同张牌。",
+    "UPGRADE_DESCRIPTION": "抽与 欲望 层数相同张牌。 NL 获得 !M! 层 欲望 。"
   },
   "MerchantAlice:DoubleStrength": {
     "NAME": "双倍力量",
@@ -226,7 +226,7 @@
   },
   "MerchantAlice:AromaticBrew": {
     "NAME": "芳香之酿",
-    "DESCRIPTION": "获得5 层 merchantalice:欲望 。 NL 抽 !M! 张牌。",
+    "DESCRIPTION": "获得5 层 欲望 。 NL 抽 !M! 张牌。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:CardCombo": {
@@ -327,40 +327,40 @@
   },
   "MerchantAlice:BurstingWithJoy": {
     "NAME": "心花怒放",
-    "DESCRIPTION": "获得与当前 merchantalice:欲望 层数相同的 格挡 。",
-    "UPGRADE_DESCRIPTION": "获得 !M! 层 merchantalice:欲望 。 NL 获得与当前 merchantalice:欲望 层数相同的 格挡 。",
+    "DESCRIPTION": "获得与当前 欲望 层数相同的 格挡 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 欲望 。 NL 获得与当前 欲望 层数相同的 格挡 。",
     "EXTENDED_DESCRIPTION": [
       " NL （ !B! 点）"
     ]
   },
   "MerchantAlice:FlushedWithEmbarrassment": {
     "NAME": "面红耳赤",
-    "DESCRIPTION": "获得与当前 格挡 数量相同的 merchantalice:欲望 。",
+    "DESCRIPTION": "获得与当前 格挡 数量相同的 欲望 。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:AFleetingRomance": {
     "NAME": "春风一度",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 层 merchantalice:欲望 。",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 层 欲望 。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:AccelerationOfDesire": {
     "NAME": "欲望加速",
-    "DESCRIPTION": "固有 。 NL 回合开始时，获得 !M! 层 merchantalice:欲望 。",
+    "DESCRIPTION": "固有 。 NL 回合开始时，获得 !M! 层 欲望 。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:ClenchTheTeeth": {
     "NAME": "咬紧牙关",
-    "DESCRIPTION": "直到下回合开始前，每受到一次攻击，获得 !M! 层 merchantalice:欲望 。",
+    "DESCRIPTION": "直到下回合开始前，每受到一次攻击，获得 !M! 层 欲望 。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:ForcedClim": {
     "NAME": "强制高潮",
-    "DESCRIPTION": "虚无 。 NL 若 merchantalice:欲望 层数低于10，将 merchantalice:欲望 层数提升至10。",
-    "UPGRADE_DESCRIPTION": "若 merchantalice:欲望 层数低于10，将 merchantalice:欲望 层数提升至10。"
+    "DESCRIPTION": "虚无 。 NL 若 欲望 层数低于10，将 欲望 层数提升至10。",
+    "UPGRADE_DESCRIPTION": "若 欲望 层数低于10，将 欲望 层数提升至10。"
   },
   "MerchantAlice:RelaxedAndJoyful": {
     "NAME": "心旷神怡",
-    "DESCRIPTION": "发情状态下，每回合第一次打出的攻击牌不消耗 merchantalice:欲望 。",
+    "DESCRIPTION": "发情状态下，每回合第一次打出的攻击牌不消耗 欲望 。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:RelaxedAndJoyful2": {
@@ -370,23 +370,23 @@
   },
   "MerchantAlice:PerfectHarmony": {
     "NAME": "水乳交融",
-    "DESCRIPTION": "获得与敌人意图伤害一半的 merchantalice:欲望 。",
-    "UPGRADE_DESCRIPTION": "保留 。 NL 获得与敌人意图伤害一半的 merchantalice:欲望 。"
+    "DESCRIPTION": "获得与敌人意图伤害一半的 欲望 。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 获得与敌人意图伤害一半的 欲望 。"
   },
   "MerchantAlice:ClearClouds": {
     "NAME": "拨云撩雨",
-    "DESCRIPTION": "保留 。 不能被打出 。 NL 如果其他牌从你的手牌中被丢弃，获得 !M! 层 merchantalice:欲望 。",
+    "DESCRIPTION": "保留 。 不能被打出 。 NL 如果其他牌从你的手牌中被丢弃，获得 !M! 层 欲望 。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:JoyOfUnion": {
     "NAME": "鱼水之欢",
-    "DESCRIPTION": "造成当前 merchantalice:欲望 !M! 倍的伤害。",
+    "DESCRIPTION": "造成当前 欲望 !M! 倍的伤害。",
     "UPGRADE_DESCRIPTION": " NL （ !D! 点）"
   },
   "MerchantAlice:JoyOfUnion2": {
     "NAME": "鱼水之欢",
-    "DESCRIPTION": "每次从卡牌获得 merchantalice:欲望 时，对所有敌人造成获得层数的伤害。",
-    "UPGRADE_DESCRIPTION": "保留 。 NL 每次从卡牌获得 merchantalice:欲望 时，对所有敌人造成获得层数的伤害。"
+    "DESCRIPTION": "每次从卡牌获得 欲望 时，对所有敌人造成获得层数的伤害。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 每次从卡牌获得 欲望 时，对所有敌人造成获得层数的伤害。"
   },
   "MerchantAlice:BlissfulParadise": {
     "NAME": "极乐世界",
@@ -395,17 +395,17 @@
   },
   "MerchantAlice:DesireRising": {
     "NAME": "欲望升腾",
-    "DESCRIPTION": "保留 。 消耗 。 NL 获得 !B! 点 格挡 。 NL 获得 !M! 层 merchantalice:欲望 。 NL 在手牌加入一张具有 虚无 的 *欲望升腾 。",
+    "DESCRIPTION": "保留 。 消耗 。 NL 获得 !B! 点 格挡 。 NL 获得 !M! 层 欲望 。 NL 在手牌加入一张具有 虚无 的 *欲望升腾 。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:Tentacle": {
     "NAME": "触手召唤",
-    "DESCRIPTION": "无法逃脱，不可升级。 NL 进入触手姿态：你的下三回合开始时，获得3层 merchantalice:欲望 和7点 格挡 。",
+    "DESCRIPTION": "无法逃脱，不可升级。 NL 进入触手姿态：你的下三回合开始时，获得3层 欲望 和7点 格挡 。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:SelfComfort": {
     "NAME": "自慰姿态",
-    "DESCRIPTION": "无法逃脱，不可升级。 NL 进入自慰姿态：你的下四回合开始时，获得4层 merchantalice:欲望 。",
+    "DESCRIPTION": "无法逃脱，不可升级。 NL 进入自慰姿态：你的下四回合开始时，获得4层 欲望 。",
     "UPGRADE_DESCRIPTION": "wwwwww"
   },
   "MerchantAlice:ChooseDrawcard": {

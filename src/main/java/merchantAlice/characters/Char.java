@@ -72,7 +72,7 @@ public class Char extends CustomPlayer {
 
     public Char(String name) {
 //        super(MerchantAlice.MOD_ID, name, Enums.MerchantAlice_CLASS, ORB_TEXTURES, ORB_VFX, LAYER_SPEED, null, null);
-        super(MerchantAlice.MOD_ID, name, Enums.MerchantAlice_CLASS, null, ORB_VFX, null, null, null);
+        super(MerchantAlice.MOD_ID, name, Enums.MerchantAlice_CLASS, ORB_TEXTURES, null, null, null, null);
         this.dialogX = this.drawX + 0.0F * Settings.scale;
         this.dialogY = this.drawY + 220.0F * Settings.scale;
 
