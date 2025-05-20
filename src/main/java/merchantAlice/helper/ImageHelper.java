@@ -39,7 +39,7 @@ public class ImageHelper {
         for (int i = 1; i < 5; i++)
             SPEmbarrassment.add(AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/char/StandingPortrait3/" + i + ".png"));
 
-        for (int i = 1; i < 7; i++)
+        for (int i = 1; i < 5; i++)
             SPTentacle.add(AssetLoader.getTexture(MerchantAlice.MOD_ID, "MerchantAliceModResources/img/char/Tentacle/" + i + ".png"));
 
         for (int i = 1; i < 5; i++)
