@@ -23,12 +23,14 @@ import merchantAlice.misc.DesireUI;
 import merchantAlice.powers.ShufflingDemonstrationPower;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class FlowerCard2 extends CustomRelic {
     public static final String ID = ModHelper.makeID(FlowerCard2.class.getSimpleName());
     private static final String IMG = "MerchantAliceModResources/img/relics/FlowerCard.png";
     private static final String IMG_OTL = "MerchantAliceModResources/img/relics/outline/FlowerCard.png";
 
+    public static HashMap<AbstractCard, Integer> RestoreRetainedCards = new HashMap<>();
 
     public FlowerCard2() {
         super(ID, AssetLoader.getTexture(MerchantAlice.MOD_ID, IMG), AssetLoader.getTexture(MerchantAlice.MOD_ID, IMG), RelicTier.STARTER, LandingSound.MAGICAL);
@@ -39,6 +41,7 @@ public class FlowerCard2 extends CustomRelic {
     @Override
     public void atBattleStartPreDraw() {
         this.counter = 3;
+        RestoreRetainedCards = new HashMap<>();
     }
 
     @Override
@@ -72,6 +75,17 @@ public class FlowerCard2 extends CustomRelic {
         if (AbstractDungeon.player.hasPower(ShufflingDemonstrationPower.POWER_ID)) {
             int amount = AbstractDungeon.player.getPower(ShufflingDemonstrationPower.POWER_ID).amount;
             addToBot(new DrawCardAction(amount));
+        }
+    }
+
+    @Override
+    public void onPlayerEndTurn() {
+        for (AbstractCard c : AbstractDungeon.player.hand.group) {
+            if (c.retain || c.selfRetain) {
+                if (RestoreRetainedCards.containsKey(c)) {
+                    RestoreRetainedCards.put(c, RestoreRetainedCards.get(c) + 1);
+                } else RestoreRetainedCards.put(c, 1);
+            }
         }
     }
 

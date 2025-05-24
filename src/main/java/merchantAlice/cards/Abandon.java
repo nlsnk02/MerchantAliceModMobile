@@ -9,6 +9,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import merchantAlice.relics.FlowerCard2;
 //import merchantAlice.patches.cards.RestoreRetainedCardsActionPatch;
 
 public class Abandon extends AbstractMerchantAliceCard {
@@ -46,9 +47,8 @@ public class Abandon extends AbstractMerchantAliceCard {
                         abstractCard.triggerOnManualDiscard();
                         GameActionManager.incrementDiscard(false);
 
-//                        int count = RestoreRetainedCardsActionPatch.retainCounts.get(abstractCard.cardID) == null ?
-//                                0 : RestoreRetainedCardsActionPatch.retainCounts.get(abstractCard.cardID);
-                        int count = ((AbstractMerchantAliceCard)abstractCard).retainAmount;
+                        int count = FlowerCard2.RestoreRetainedCards.get(abstractCard) == null ?
+                                0 : FlowerCard2.RestoreRetainedCards.get(abstractCard);
 
                         baseDamage = baseDamage + baseMagicNumber * count;
                         calculateCardDamage(m);
